@@ -5,7 +5,7 @@
 ---
 
 ## 🌟 Who We Are
-**WW = 旺哥聊AI**.  
+**WW-AI-Lab = 旺哥聊AI**.  
 我们是一支把 **生成式 AI** 当成拍档的极客小分队，  
 用 LLM、Agentic Workflow 与自动化技术，帮助企业完成 **智能化升级、降本增效**。
 
@@ -19,12 +19,30 @@
 
 | 主题 | 示例仓库 | 说明 |
 |------|---------|------|
-| 🔄 **Enterprise Automation** | `ai-erp-bot`, `browser-rpa-playwright` | 旧系统自动化脚本、浏览器 RPA、低代码流程 |
+| 🔄 **Enterprise Automation** | [`browser-use-playwright`](https://github.com/WW-AI-Lab/browser-use-playwright), [`Dify-Batch`](https://github.com/WW-AI-Lab/Dify-Batch) | 浏览器自动化 + AI 自愈、Dify Workflow 批量执行系统 |
 | 🤖 **Agentic Workflow** | `eino-agent-templates`, `mcp-tool-demo` | Eino / MCP / LLM Agent 原型，端到端业务链 |
 | 🖼️ **Gen-AI & Vision** | `gpt-image-pipeline`, `psd-layer-parser` | 多模态模型、商品场景图生成、PSD 解析 |
 | 📊 **Data & Insights** | `mysql-ai-dba`, `prompt-metrics-tracker` | 数据库运维助手、AI 交互数据采集与分析 |
 
 > **Disclaimer:** 这里的仓库默认开源，仅用于学习与验证思路；**不保证生产可用**。欢迎 Fork / Issue / PR，一起把想法变成现实。
+
+---
+
+## ✨ 精选项目亮点
+
+### 🎯 [browser-use-playwright](https://github.com/WW-AI-Lab/browser-use-playwright)
+> 一站式自动化方案：Browser-Use 低代码录制 → Playwright 稳定执行 → Browser-Use 智能自愈
+
+- **核心特性**：AI 录制 + 稳定执行 + 智能自愈
+- **适用场景**：电商数据采集、自动化测试、表单批量填写
+- **技术栈**：Browser-Use + Playwright + FastAPI
+
+### 🚀 [Dify-Batch](https://github.com/WW-AI-Lab/Dify-Batch)  
+> Dify Workflow 批量执行系统，让 AI 工作流处理大规模任务
+
+- **核心特性**：批量任务调度、进度监控、结果导出
+- **适用场景**：内容批量生成、数据批量处理、AI 工作流自动化
+- **技术栈**：Dify API + 任务调度 + Web UI
 
 ---
 
