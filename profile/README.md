@@ -20,9 +20,8 @@
 | 主题 | 示例仓库 | 说明 |
 |------|---------|------|
 | 🔄 **Enterprise Automation** | [`browser-use-playwright`](https://github.com/WW-AI-Lab/browser-use-playwright), [`Dify-Batch`](https://github.com/WW-AI-Lab/Dify-Batch) | 浏览器自动化 + AI 自愈、Dify Workflow 批量执行系统 |
-| 🤖 **Agentic Workflow** | `eino-agent-templates`, `mcp-tool-demo` | Eino / MCP / LLM Agent 原型，端到端业务链 |
-| 🖼️ **Gen-AI & Vision** | `gpt-image-pipeline`, `psd-layer-parser` | 多模态模型、商品场景图生成、PSD 解析 |
-| 📊 **Data & Insights** | `mysql-ai-dba`, `prompt-metrics-tracker` | 数据库运维助手、AI 交互数据采集与分析 |
+| 🤖 **Agentic Workflow** | [`jinja2-mcp-server`](https://github.com/WW-AI-Lab/jinja2-mcp-server) | Jinja2模板转换的MCP服务，AI工作流模板自动化 |
+| 🖼️ **Gen-AI & Vision** | [`shape-mask-demo`](https://github.com/WW-AI-Lab/shape-mask-demo) | JavaScript前端图片编辑 |
 
 > **Disclaimer:** 这里的仓库默认开源，仅用于学习与验证思路；**不保证生产可用**。欢迎 Fork / Issue / PR，一起把想法变成现实。
 
@@ -43,6 +42,13 @@
 - **核心特性**：批量任务调度、进度监控、结果导出
 - **适用场景**：内容批量生成、数据批量处理、AI 工作流自动化
 - **技术栈**：Dify API + 任务调度 + Web UI
+
+### 🤖 [jinja2-mcp-server](https://github.com/WW-AI-Lab/jinja2-mcp-server)
+> Jinja2 3.1.*版本的模板转换功能的MCP服务，便于在AI工作流或Agent中接入
+
+- **核心特性**：模板转换、MCP协议支持、AI工作流集成
+- **适用场景**：AI Agent模板处理、自动化文档生成、工作流模板转换
+- **技术栈**：Python + Jinja2 + MCP Protocol
 
 ---
 
