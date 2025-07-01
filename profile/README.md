@@ -19,6 +19,8 @@
 
 | 主题 | 示例仓库 | 说明 |
 |------|---------|------|
+| 📄 **Document Processing** | [`any2markdown`](https://github.com/WW-AI-Lab/any2markdown), [`azure-gpt-image`](https://github.com/WW-AI-Lab/azure-gpt-image) | 文档转换服务、AI图像生成MCP服务 |
+| 🚀 **Development Tools** | [`Awesome-MCP-Scaffold`](https://github.com/WW-AI-Lab/Awesome-MCP-Scaffold) | MCP服务器开发脚手架，5分钟启动生产级MCP服务 |
 | 🔄 **Enterprise Automation** | [`browser-use-playwright`](https://github.com/WW-AI-Lab/browser-use-playwright), [`Dify-Batch`](https://github.com/WW-AI-Lab/Dify-Batch) | 浏览器自动化 + AI 自愈、Dify Workflow 批量执行系统 |
 | 🤖 **Agentic Workflow** | [`jinja2-mcp-server`](https://github.com/WW-AI-Lab/jinja2-mcp-server) | Jinja2模板转换的MCP服务，AI工作流模板自动化 |
 | 🖼️ **Gen-AI & Vision** | [`shape-mask-demo`](https://github.com/WW-AI-Lab/shape-mask-demo) | JavaScript前端图片编辑 |
@@ -29,21 +31,45 @@
 
 ## ✨ 精选项目亮点
 
-### 🎯 [browser-use-playwright](https://github.com/WW-AI-Lab/browser-use-playwright)
+### 🔥 [any2markdown](https://github.com/WW-AI-Lab/any2markdown) ⭐ 18
+> 高性能文档转换服务器，同时支持 Model Context Protocol (MCP) 和 RESTful API 接口
+
+- **核心特性**：PDF/Word/Excel → Markdown转换、图片提取、页眉页脚移除、批量处理
+- **适用场景**：文档数字化、知识库构建、AI训练数据准备
+- **技术栈**：Python + MCP Protocol + REST API
+- **亮点**：双协议支持，既可作为MCP服务集成到AI工作流，也可独立部署为REST服务
+
+### 🚀 [Awesome-MCP-Scaffold](https://github.com/WW-AI-Lab/Awesome-MCP-Scaffold) ⭐ 14
+> 开箱即用的 MCP 服务器开发脚手架，5分钟启动完整 MCP 服务器
+
+- **核心特性**：快速启动、内置开发提示词、生产级架构、最佳实践内置
+- **适用场景**：MCP服务快速开发、AI工具集成、企业级MCP部署
+- **技术栈**：Python + MCP SDK v1.10.1 + FastAPI
+- **亮点**：基于Cursor IDE优化，一句话完成MCP Server tools开发
+
+### 🖼️ [azure-gpt-image](https://github.com/WW-AI-Lab/azure-gpt-image) ⭐ 1
+> 基于Azure OpenAI gpt-image-1模型的MCP服务器，为AI助手提供图像生成和编辑能力
+
+- **核心特性**：图像生成、图像编辑、MCP协议支持、Streamable HTTP Transport
+- **适用场景**：AI助手图像功能、自动化图像处理、企业级图像生成
+- **技术栈**：Python + Azure OpenAI + MCP SDK
+- **亮点**：官方MCP SDK实现，企业级Azure服务集成
+
+### 🎯 [browser-use-playwright](https://github.com/WW-AI-Lab/browser-use-playwright) ⭐ 2
 > 一站式自动化方案：Browser-Use 低代码录制 → Playwright 稳定执行 → Browser-Use 智能自愈
 
 - **核心特性**：AI 录制 + 稳定执行 + 智能自愈
 - **适用场景**：电商数据采集、自动化测试、表单批量填写
 - **技术栈**：Browser-Use + Playwright + FastAPI
 
-### 🚀 [Dify-Batch](https://github.com/WW-AI-Lab/Dify-Batch)  
+### 🚀 [Dify-Batch](https://github.com/WW-AI-Lab/Dify-Batch) ⭐ 4
 > Dify Workflow 批量执行系统，让 AI 工作流处理大规模任务
 
 - **核心特性**：批量任务调度、进度监控、结果导出
 - **适用场景**：内容批量生成、数据批量处理、AI 工作流自动化
 - **技术栈**：Dify API + 任务调度 + Web UI
 
-### 🤖 [jinja2-mcp-server](https://github.com/WW-AI-Lab/jinja2-mcp-server)
+### 🤖 [jinja2-mcp-server](https://github.com/WW-AI-Lab/jinja2-mcp-server) ⭐ 1
 > Jinja2 3.1.*版本的模板转换功能的MCP服务，便于在AI工作流或Agent中接入
 
 - **核心特性**：模板转换、MCP协议支持、AI工作流集成
